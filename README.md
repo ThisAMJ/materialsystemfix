@@ -1,5 +1,7 @@
 # MaterialSystemFix
 
+[![CI](https://github.com/ThisAMJ/materialsystemfix/actions/workflows/CI.yml/badge.svg)](https://github.com/ThisAMJ/materialsystemfix/actions/workflows/CI.yml)
+
 This is a plugin for [Portal 2](https://store.steampowered.com/app/620) mods that fixes a bug in the game's
 `materialsystem` library. The bug causes mods with any other game directory
 (`-game` parameter) than `portal2` to allocate a measly 2MB of memory to the
