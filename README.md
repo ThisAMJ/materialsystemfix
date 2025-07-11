@@ -17,7 +17,8 @@ If you're interested, the relevant function is `CMatRenderContextBase::Init`.
 1. Download the latest release from the [releases page](https://github.com/ThisAMJ/materialsystemfix/releases).
 2. Place `materialsystemfix.dll` and `materialsystemfix.so` in your mod's game directory.
 3. Add `plugin_load materialsystemfix` to `cfg/valve.rc` or `cfg/autoexec.cfg`.
-   It does not have to run on launch, but it is recommended. You can also make a `.vdf` file in `addons/`.
+    - It does not have to run on launch, but it is recommended.
+    - You can also create `addons/materialsystemfix.vdf` with the content `"plugin"{"file" "materialsystemfix"}`
 
 ## Building
 
