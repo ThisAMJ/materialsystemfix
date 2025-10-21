@@ -2,10 +2,11 @@
 
 [![CI](https://github.com/ThisAMJ/materialsystemfix/actions/workflows/CI.yml/badge.svg)](https://github.com/ThisAMJ/materialsystemfix/actions/workflows/CI.yml)
 
-This is a plugin for [Portal 2](https://store.steampowered.com/app/620) mods that fixes a bug in the game's
-`materialsystem` library. The bug causes mods with any other game directory
-(`-game` parameter) than `portal2` to allocate a measly 2MB of memory to the
-material system, which is not enough for large maps or complex mods.
+This is a plugin for [Portal 2](https://store.steampowered.com/app/620) mods
+that fixes a bug in the game's `materialsystem` library. The bug causes mods
+with any other game directory (`-game` parameter) than `portal2` to allocate
+a measly 2MB of memory to the material system, which is not enough for large
+maps or complex mods.
 
 This plugin fixes the bug by patching the library to allocate the same amount
 of memory as for the `portal2` game directory.
@@ -27,7 +28,7 @@ If you're interested, the relevant function is `CMatRenderContextBase::Init`.
 You'll need:
 
 - [Visual Studio Build Tools](https://visualstudio.microsoft.com/visual-cpp-build-tools/)
-- Windows SDK 10.0.18362.0
+- Windows SDK 10.0.19041.0
 - Platform toolset v142
 
 ```batch
